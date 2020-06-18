@@ -1,6 +1,6 @@
 # Wine Reviews
 ## Overview
-Exploratory Data Analysis (EDA) of price, country of origin, rating. Preprocessed wine reviews by tokenizing strings into
+Conducted exploratory data analysis (EDA) of price, country of origin, rating. Preprocessed wine reviews by tokenizing strings into
 words and converting them into dummy variables. Trained price prediction models using Linear Regression, Polynomial Regression,
 and Random Forest, as well as country of origin classification using Random Forest, Logistic Regression, and K-Means Clustering. 
 Model Performance was measured using Mean Squared Error (MSE), F1 score, residual plots, and system runtime. K-fold Cross Validation
