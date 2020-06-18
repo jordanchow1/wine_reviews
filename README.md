@@ -60,3 +60,4 @@ was used for all models.
 
 ### EDA
 ![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/num_reviews.png)
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/boxplot.png)
