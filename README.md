@@ -1,10 +1,13 @@
-# wine_reviews
+# Wine Reviews
 ## Overview
 Exploratory Data Analysis (EDA) of price, country of origin, rating. Preprocessed wine reviews by tokenizing strings into
 words and converting them into dummy variables. Trained price prediction models using Linear Regression, Polynomial Regression,
 and Random Forest, as well as country of origin classification using Random Forest, Logistic Regression, and K-Means Clustering. 
 Model Performance was measured using Mean Squared Error (MSE), F1 score, residual plots, and system runtime. K-fold Cross Validation
 was used for all models.
+
+### Prerequisites
+- Python 3, Git Large File Storage (LFS), Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn.
 
 ## Data
 - Wine Reviews on Kaggle: https://www.kaggle.com/zynicide/wine-reviews
@@ -15,9 +18,9 @@ was used for all models.
 - Pinot Noir is the most popular variety, followed by Chardonnay, Cabernet Sauvignon, and Red Blend.
 
 ## Regression Findings
-- Prices are nonlinear where when using linear regression prices on the higher end tend to vary more. Polynomial regression with
-2 degrees was used to counter the issue.
-![residual plot linear]
+- Prices are nonlinear where when using linear regression prices on the higher end tend to vary more. Polynomial regression with 2 degrees was used to counter the issue.
+
+![residual plot linear](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/residual_plot_linear.png)
 
 ## Model Performance - Price Prediction
 ### Random Forest
@@ -42,3 +45,18 @@ was used for all models.
 ### K-Means Clustering
 - F1 score: 0.148
 - Runtime: 224.85 sec
+
+## Snapshots
+### Residual Plots - Price Prediction
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/residual_plot_rf.png)
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/residual_plot_linear.png)
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/residual_plot_poly.png)
+
+### Confusion Matrix - Country Classification
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/cm_rf.png)
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/cm_linear.png)
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/cm_kmeans.png)
+
+### EDA
+![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/num_reviews.png)
+
