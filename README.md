@@ -3,7 +3,7 @@
 Conducted exploratory data analysis (EDA) of price, country of origin, rating. Preprocessed wine reviews by tokenizing strings into
 words and converting them into dummy variables. Trained price prediction models using Linear Regression, Polynomial Regression,
 and Random Forest, along with country of classification of country of origin using Random Forest, Logistic Regression, and K-Means Clustering. 
-Model Performance was measured using Mean Squared Error (MSE), F1 score, residual plots, and system runtime. K-fold Cross Validation
+Model Performance was measured with Mean Squared Error (MSE), F1 score, residual plots, and system runtime. K-fold Cross Validation
 was used for all models.
 
 ### Prerequisites
