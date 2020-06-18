@@ -60,3 +60,6 @@ was used for all models.
 ### EDA
 ![](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/num_reviews.png)
 
+## Resources
+WordCloud: https://www.datacamp.com/community/tutorials/wordcloud-python
+
