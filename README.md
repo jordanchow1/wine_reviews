@@ -25,27 +25,27 @@ was used for all models.
 
 ## Model Performance - Price Prediction
 ### Random Forest
-- MSE: 2844.64
-- Runtime: 4.74 sec
+- MSE: 2257.94
+- Runtime: 6.296 sec
 ### Linear Regression
-- MSE: 3651.55
-- Runtime: 0.46 sec
+- MSE: 2703.435
+- Runtime: 0.1965 sec
 ### Polynomial Regression
-- MSE: 2852.22
-- Runtime: 195.24 sec
+- MSE: 2181.255
+- Runtime: 146.910 sec
 
 ## Model Performance - Country Classification
 ### Random Forest
-- F1 score: 0.976
-- Runtime: 263.97 sec
+- F1 score: 0.973
+- Runtime: 269.55 sec
 
 ### Logistic Regression
-- F1 score: 0.989
-- Runtime: 32.56 sec
+- F1 score: 0.988
+- Runtime: 30.44 sec
 
 ### K-Means Clustering
-- F1 score: 0.148
-- Runtime: 224.85 sec
+- F1 score: 0.165
+- Runtime: 202.10 sec
 
 ## Snapshots
 ### Residual Plots - Price Prediction
