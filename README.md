@@ -11,11 +11,12 @@ was used for all models.
 
 ## Data
 - Wine Reviews on Kaggle: https://www.kaggle.com/zynicide/wine-reviews
+- From the sample of 119955, stratified sampling was used to subsample 500 and 5000 data points for model training to account for differing label proportions.
 
 ## EDA Findings
 - Moderate positive correlation between Prices and Ratings with a Pearson's Coefficient of 0.416.
-- Prices follow a Poisson distribution with most values ranging between 0 and 50.
-- Pinot Noir is the most popular variety, followed by Chardonnay, Cabernet Sauvignon, and Red Blend.
+- Prices follow a Poisson distribution with most values ranging between 0 and 50 (Linear regression might not be ideal)
+- Pinot Noir is the most reviewed variety, followed by Chardonnay, Cabernet Sauvignon, and Red Blend.
 
 ## Regression Findings
 - Prices are nonlinear where when using linear regression prices on the higher end tend to vary more. Polynomial regression with 2 degrees was used to counter the issue.
