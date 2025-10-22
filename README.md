@@ -13,7 +13,7 @@ was used for all models.
 - Wine Reviews on Kaggle: https://www.kaggle.com/zynicide/wine-reviews
 - From the sample of 119955, stratified sampling was used to subsample 500 and 5000 data points for model training to account for differing label proportions.
 
---
+---
 
 ## 🏁 Results Summary
 
