@@ -7,7 +7,7 @@ Model Performance was measured with Mean Squared Error (MSE), F1 score, residual
 was used for all models.
 
 ### Prerequisites
-- Python 3, Git Large File Storage (LFS), Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn.
+- Python 3, Git, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn.
 
 ## Data
 - Wine Reviews on Kaggle: https://www.kaggle.com/zynicide/wine-reviews
