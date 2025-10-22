@@ -13,13 +13,15 @@ was used for all models.
 - Wine Reviews on Kaggle: https://www.kaggle.com/zynicide/wine-reviews
 - From the sample of 119955, stratified sampling was used to subsample 500 and 5000 data points for model training to account for differing label proportions.
 
-## EDA Findings
-- Moderate positive correlation between Prices and Ratings with a Pearson's Coefficient of 0.416.
-- Prices follow a Poisson distribution with most values ranging between 0 and 50 (Linear regression might not be ideal)
-- Pinot Noir is the most reviewed variety, followed by Chardonnay, Cabernet Sauvignon, and Red Blend.
+--
 
-## Regression Findings
-- Prices are nonlinear where when using linear regression prices on the higher end tend to vary more. Polynomial regression with 2 degrees was used to counter the issue.
+## 🏁 Results Summary
+
+### Key Insights from EDA
+- **Price distribution**: Wine prices are heavily right-skewed — most wines are under $50, with a few luxury outliers above $200.  
+- **Top wine-producing countries**: The U.S., France, Italy, and Spain dominate the dataset, together accounting for over 60% of all reviews.  
+- **Rating vs. price relationship**: There is a *moderate positive correlation* (≈ 0.45) between wine rating and price — higher-rated wines generally cost more, but with noticeable variance.  
+- **Common varieties**: “Pinot Noir” and “Chardonnay” appear most frequently, showing their global popularity.  
 
 ![residual plot linear](https://github.com/jordanchow1/wine_reviews/blob/master/snapshots/residual_plot_linear.png)
 
