@@ -15,9 +15,9 @@ was used for all models.
 
 ---
 
-## 🏁 Results Summary
+## Results Summary
 
-### Key Insights from EDA
+### Key Insights
 - **Price distribution**: Wine prices are heavily right-skewed — most wines are under $50, with a few luxury outliers above $200.  
 - **Top wine-producing countries**: The U.S., France, Italy, and Spain dominate the dataset, together accounting for over 60% of all reviews.  
 - **Rating vs. price relationship**: There is a *moderate positive correlation* (≈ 0.45) between wine rating and price — higher-rated wines generally cost more, but with noticeable variance.  
